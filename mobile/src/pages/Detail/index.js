@@ -39,8 +39,8 @@ export default function Detail() {
             <View style={styles.header}>
                 <Image source={logoImg} />
 
-                <TouchableOpacity onPress={() => {}}>
-
+                <TouchableOpacity onPress={navigateBack}>
+                    <Icon name="arrow-left" size={28} color={'#E02041'}></Icon>
                 </TouchableOpacity>
             </View>
 
@@ -54,8 +54,6 @@ export default function Detail() {
 
                 <Text style={styles.incidentProperty}>VALOR:</Text>
                 <Text style={styles.incidentValue}>{ Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL' }).format(incident.value) }</Text>
-
-               
 
             </View>
 

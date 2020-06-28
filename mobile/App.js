@@ -7,6 +7,8 @@ import React from 'react';
 
 import Routes from './src/routes';
 
+import GeneralStatusBarColor from './src/components/GeneralStatusBarColor';
+
 import {
   View,
   Text,
@@ -14,6 +16,12 @@ import {
 
 export default function App() {
   return (
-    <Routes />
+    <View style={{ flex:1 }}>
+
+      <GeneralStatusBarColor backgroundColor="gray" barStyle="light-content"/>
+
+      <Routes />
+
+    </View>
   )
 }
