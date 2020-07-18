@@ -1,7 +1,7 @@
 
 
 
-# Semana Omnistack 10
+# Semana Omnistack 11
 
 Projeto **Be The Hero** desenvolvido durante a semana omnistack 11 da RocketSeat. O objetivo da solução é facilitar o encontro entre ONG's e pessoas que queiram contribuir. 
 Este repositório contém um conjunto de 3 módulos pertencentes ao projeto, são eles: backend, frontend e mobile.
